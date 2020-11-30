@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercice 4 solution with bonus</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Homepage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Team
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Vincent</a>
+                        <a class="dropdown-item" href="#">Béatrice</a>
+                        <a class="dropdown-item" href="#">Rosita</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="alert alert-danger" role="alert">
+            Une erreur serveur est survenue. Veuillez rafraîchir la page ou rééssayer plus tard
+        </div>
+        <div class="jumbotron">
+            <div class="row">
+                <h1 class="display-4 col-9">Hi! My name is!</h1>
+                <div class="col-3">
+                    <img src="./img/eminem.jpg" alt="eminem" class="img-fluid rounded-circle" />
+                    <h2>Slim Shady</h2>
+                </div>
+            </div>
+        </div>
+        <!-- end jumbotron -->
+        <div class="row">
+            <div class="center col-2 offset-5">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Signup newsletter
+  </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-auto">
+                                    <label class="sr-only" for="inlineFormInputGroup">Email</label>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">Email</div>
+                                        </div>
+                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="ex: lala@land.com">
+                                    </div>
+                                    <button type="button" class="btn btn-primary">S'abonner</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end center -->
+
+        </div>
+        <!-- end modal row -->
+        <div class="row">
+            <div class="col-4">
+                <h3>Planification</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse iste commodi minus doloribus. Aliquam iusto illum quia, porro quis nulla ducimus expedita mollitia laboriosam alias et. Velit omnis ipsam provident?</p>
+            </div>
+            <div class="col-4">
+                <h3>Action</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, libero! Molestiae eos cumque cum, placeat delectus repellat veniam minima soluta vitae amet porro, reprehenderit voluptatibus incidunt? Tempora est voluptatem non.</p>
+            </div>
+            <div class="col-4">
+                <h3>Analysis</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil laborum obcaecati distinctio laudantium ratione consequuntur labore odit maiores incidunt consequatur! Exercitationem adipisci temporibus corrupti ullam recusandae dolores
+                    at distinctio delectus!</p>
+            </div>
+        </div>
+        <!-- end description row -->
+    </div>
+    <!-- end container -->
+
+</body>
+
+</html>
